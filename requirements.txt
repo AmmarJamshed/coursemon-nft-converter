@@ -1,4 +1,4 @@
-fastapi
-uvicorn
-vertexai
-google-cloud-aiplatform
+streamlit
+thirdweb-sdk
+pdf2image
+python-dotenv
