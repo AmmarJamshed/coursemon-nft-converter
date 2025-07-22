@@ -1,4 +1,18 @@
-streamlit
-thirdweb-sdk
-pdf2image
-python-dotenv
+# Core dependencies
+streamlit==1.29.0
+
+# Thirdweb SDK for EVM blockchain interaction
+thirdweb-sdk==3.8.0
+
+# PDF to image conversion for certificates
+pdf2image==1.17.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Web3 and Ethereum dependencies
+web3==6.11.0
+eth-account==0.10.0
+
+# Install patched Parsimonious (fixes getargspec issue)
+git+https://github.com/erikrose/parsimonious.git@master
